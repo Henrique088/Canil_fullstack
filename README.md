@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+<h1 align="center">Jornada-IA </h1>
+<p align="center">
+Criação de uma inteligência Artificial 
+</p>
+<p align="center" >
+ <img src="https://img.shields.io/static/v1?label=JavaScript&message= _&color=blue&style=for-the-badge&logo=react"/>
+ <img src="https://img.shields.io/static/v1?label=HTML&message= _&color=blue&style=for-the-badge&logo=django"/>
+ <img src="https://img.shields.io/static/v1?label=CSS&message= _&color=blue&style=for-the-badge&logo=CSS3"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tópicos 
 
-## Available Scripts
+:small_blue_diamond: [Descrição do projeto ](#descrição-do-projeto)
 
-In the project directory, you can run:
+:small_blue_diamond: [Explicação do código](#explicação-do-código)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Descrição do Projeto
 
-### `npm test`
+O projeto foi criado para a pratica do desenvolvilmento FullStack, para isso foi usado o React e Django, Frontend e Backend respectivamente. O site é um canil na qual você entra com uma data, quantidade de cães grandes e pequenos e é mostrado qual Petshop fica mais em conta para realizar o banho dos pets.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ ## Explicação do código
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Frontend**: 
+  A parte **visual** foi feita de maneira simples, usando apenas um titulo, três inputs, um button e um span, todos estilizados via css. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  A ligação do front com o backend foi feito usando o Fetch, na qual faz uma requisição para uma porta local especifica e retorna o resultado para ser exibido na tela. A função que realiza isso é a handleSubmit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Backend**:
+  Para aceitação de solicitações foi usado o corsheaders, depois de configurado foi feito a manipulção dos dados recebidos pela urlespecifica 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ continua...
